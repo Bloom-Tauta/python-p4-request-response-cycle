@@ -21,7 +21,9 @@ def index():
     '''
 
     status_code = 200
-    headers = {}
+    headers = {
+        
+    }
 
     return make_response(response_body, status_code, headers)
 
